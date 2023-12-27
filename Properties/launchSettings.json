@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SS.Challenges.RaceCondition": {
+      "commandName": "Project",
+      "commandLineArgs": "solution=nonde maxRuns=10000"
+    }
+  }
+}
