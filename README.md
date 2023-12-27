@@ -1,8 +1,8 @@
-# Race Condition Callenge (Group 3)
-by Günter Arzberger, Thomas Leber and Rene Vanek
+# Race Condition Challenge (Group 3)
+by Gï¿½nter Arzberger, Thomas Leber and Rene Vanek
 
 ## Challenge Description
-A race condition occurs in a program when the behavior depends on the relative timing of events, such as
+A race condition occurs in a program when the behavior depends on the relative timigit ng of events, such as
 the order of thread execution. This challenge focuses on creating a simple scenario where a race condition
 can occur.
 
