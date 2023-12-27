@@ -23,8 +23,8 @@ public class ProgramArgs
     public int TransactionsPerRun { get; set; } = 15;
     public string Logging { get; set; } = LoggingOptions.ALL;
     public int InitialBalance { get; set; } = 1000;
-    public string Solution { get; set; }
-    public int MaxRuns { get; set; }
+    public string Solution { get; set; } = SolutionOptions.NONE;
+    public int MaxRuns { get; set; } = 1000;
 
     public static ProgramArgs CreateFromArgsArray(string[] args)
     {
