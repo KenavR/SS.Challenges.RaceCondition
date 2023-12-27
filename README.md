@@ -1,14 +1,14 @@
 # Race Condition Challenge (Group 3)
-by G�nter Arzberger, Thomas Leber and Rene Vanek
+by Günter Arzberger, Thomas Leber and Rene Vanek
 
 ## Challenge Description
-A race condition occurs in a program when the behavior depends on the relative timigit ng of events, such as
-the order of thread execution. This challenge focuses on creating a simple scenario where a race condition
+A race condition occurs in a program when the behavior depends on the relative timing of events, such as 
+the order of thread execution. This challenge focuses on creating a simple scenario where a race condition 
 can occur.
 
 ## Scenario
-Imagine a shared bank account managed by two functions: deposit and withdraw. Both functions access
-and modify the account balance. Your task is to implement these functions in a way that exposes a race
+Imagine a shared bank account managed by two functions: deposit and withdraw. Both functions access 
+and modify the account balance. Your task is to implement these functions in a way that exposes a race 
 condition.
 
 ## Instructions
@@ -61,7 +61,7 @@ Performing run 24!
 Performing run 25!
 Performing run 26!
 Performing run 27!
-Error: A race condition occured at run 27! The correct balance should be 682 but the new account balance is 8743!
+Error: A race condition occurred at run 27! The correct balance should be 682 but the new account balance is 8743!
 ```
 
 ## Solution 1: Locks
@@ -112,5 +112,5 @@ Performing run 9997!
 Performing run 9998!
 Performing run 9999!
 Performing run 10000!
-Success or Luck: No Race Condition occured!
+Success or Luck: No Race Condition occurred!
 ```

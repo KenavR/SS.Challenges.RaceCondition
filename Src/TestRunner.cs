@@ -88,7 +88,7 @@ public class TestRunner
 
         if (correctBalance != account.Balance)
         {
-            Console.WriteLine($"Error: A race condition occured at run {run}! The correct balance should be {correctBalance} but the new account balance is {account.Balance}!");
+            Console.WriteLine($"Error: A race condition occurred at run {run}! The correct balance should be {correctBalance} but the new account balance is {account.Balance}!");
             return false;
         }
         return true;
@@ -102,7 +102,7 @@ public class TestRunner
 
         if (i >= args.MaxRuns)
         {
-            Console.WriteLine("Success or Luck: No Race Condition occured!");
+            Console.WriteLine("Success or Luck: No Race Condition occurred!");
         }
 
     }
