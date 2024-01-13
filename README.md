@@ -1,5 +1,4 @@
 # Race Condition Challenge (Group 3)
-by Günter Arzberger, Thomas Leber and Rene Vanek
 
 ## Challenge Description
 A race condition occurs in a program when the behavior depends on the relative timing of events, such as 
